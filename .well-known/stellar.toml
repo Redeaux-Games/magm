@@ -1,0 +1,42 @@
+VERSION="2.0.0"
+
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+HORIZON_URL="https://horizon.domain.com"
+ACCOUNTS=[
+"GANZDHDF7337GT7DCDVHXXXOTUMMNTPSLUWXAZRFVKXXOBS5SM3TRTO7",
+"GD6AGLF7IXP7DRSLBK27F5AIPWAFMNKYDH4BSNGZE354IZUII46GMSVU",
+"GDC3EYVIOWLCRFHPARBFR7J74PHACZ3EBBQUN5KZ5BSVNEU3ZWANAKYQ",
+"GADMXCWTPYXPSC3KI5QQIU53IW7XB4XMVG67KXY62T2Y2W7OUMVKLIE3",
+"GAJLXGEWZVJWZQBFKY3RMK2I2I3QL6YXKCWV4ETBVQD2FEYJ7TAHALU3",
+"GBEYBN27ABZQNUCMZS5QBMOAB4S7Q5DQLRWF7TFZA5SGPRI2D72RWMCH"
+]
+
+
+[DOCUMENTATION]
+ORG_NAME="Redeaux Games, Inc."
+ORG_DBA="MAGMA Token"
+ORG_URL="https://magm.red"
+ORG_LOGO="https://magm.red/magm-token-stellar-sm.png.png"
+ORG_DESCRIPTION="Issued by the developers of Redeaux Games."
+ORG_PHYSICAL_ADDRESS="5570 FM 423 Suite 250, FRISCO, TX 75036, United States"
+ORG_PHYSICAL_ADDRESS_ATTESTATION="https://www.domain.com/address_attestation.jpg"
+ORG_TWITTER="redeauxg"
+ORG_GITHUB="floatbeta"
+ORG_OFFICIAL_EMAIL="magma@redeaux.games"
+
+[[PRINCIPALS]]
+name="Redeaux Games"
+email="dev@redeaux.games"
+twitter="redeauxg"
+github="floatbeta"
+
+
+[[CURRENCIES]]
+code="MAGM"
+issuer="GAPHVTI67DKIHG77R33ADCFZ6KEOPJEEEIOFF47HUMXEMQSQ6KFKXCAT"
+display_decimals=10
+name="MAGMA"
+desc="MAGMA Token is a cross-chain token, that powers the economy in The Verse, an upcoming metaverse experience."
+conditions="There will only ever be 700,000,000 MAGM tokens on the Stellar blockchain."
+image="https://magm.red/magm-token-stellar-sm.png"
+fixed_number=777000000
