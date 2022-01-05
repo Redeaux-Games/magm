@@ -1,8 +1,984 @@
-<html>
-  <head>
-    <title>MAGMA TOKEN is launching soon!</title>
-  </head>
-<body bgcolor="#000000">
-  <center><a href="https://discord.gg/6cp9QJDPqH" target="_blank"><img src="magm-token-stellar-sm.png" width="100%" height="auto" border="0"></center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MAGMA TOKEN | The currency of The Verse!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="MAGMA Token ($MAGM) is a multichain crypto-token designed and developed by Redeaux Games, MAGMA is the currency that powers The Verse.">
+  <meta name="keywords" content="MAGMA, MAGM, CRYPTO, TOKEN, THE VERSE, REDEAUX GAMES, multiverse, metaverse, currency, algorand, cardano, ethereum, polkadot, solana, tron, stellar">
+  <meta name="author" content="Redeaux Games">
+  <meta property="og:title" content="Magma Token" />
+	<meta property="og:url" content="https://magm.red" />
+	<meta property="twitter:creator" content="@RedeauxG" />
+	<meta property="twitter:image" content="https://magm.red/magm-coin.jpg" />
+	<meta property="og:image" content="https://magm.red/magm-coin.jpg />
+	<meta property="og:image:secure_url" content="https://magm.red/magm-coin.jpg" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="300" />
+	<meta property="og:image:height" content="300" />
+	<meta property="og:image:alt" content="Magma Token Icon" />
+	<meta property="og:description" content="MAGMA Token ($MAGM) is a multichain crypto-token designed and developed by Redeaux Games, MAGMA is the currency that powers The Verse." />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/magm.css">
+  <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+  <style>
+      .contact--lockup .modalx {
+          padding: 0px 45px;
+          background-color: #0c0c0c29 !important;
+          backdrop-filter: blur(7px) !important;
+          border-radius: 50px !important;
+          width: 75%;
+          margin: 7%;
+      }
+
+    .contact--lockup .modalx--options li:nth-child(3) {
+      margin-bottom: 20px !important;
+    }
+
+    .contact--lockup .modalx--options li:nth-child(4) {
+        background-color: #ea4c89;
+    }
+
+    .contact--lockup .modalx--options li:nth-child(5) {
+        background-color: #ea4c4c;
+    }
+
+    body {
+      overflow-x: hidden !important;
+      overflow-y: hidden !important;
+    }
+
+    .blocker {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+      overflow: auto;
+      z-index: 1;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: rgb(0 0 0 / 50%) !important;
+      backdrop-filter: blur(10px) !important;
+      text-align: center;
+    }
+
+    .modal {
+      display: none;
+      vertical-align: middle;
+      position: relative;
+      z-index: 2;
+      max-width: 90% !important;
+      border-color: #858585cf !important;
+      border-width: medium !important;
+      box-sizing: border-box;
+      overflow: auto;
+      background: rgb(16 16 16 / 20%) !important;
+      backdrop-filter: blur(380px) !important;
+      padding: 5px 0px !important;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -o-border-radius: 8px;
+      -ms-border-radius: 8px;
+      border-radius: 8px;
+      -webkit-box-shadow: 0 0 10px #000;
+      -moz-box-shadow: 0 0 10px #000;
+      -o-box-shadow: 0 0 10px #000;
+      -ms-box-shadow: 0 0 10px #000;
+      box-shadow: 0 0 10px #000;
+      text-align: match-parent;
+    }
+
+    .modal a.close-modal {
+    position: absolute;
+    top: 1.5px !important;
+    left: 1.5px !important;
+    display: block;
+    z-index: 999999999 !important;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA3hJREFUaAXlm8+K00Acx7MiCIJH/yw+gA9g25O49SL4AO3Bp1jw5NvktC+wF88qevK4BU97EmzxUBCEolK/n5gp3W6TTJPfpNPNF37MNsl85/vN/DaTmU6PknC4K+pniqeKJ3k8UnkvDxXJzzy+q/yaxxeVHxW/FNHjgRSeKt4rFoplzaAuHHDBGR2eS9G54reirsmienDCTRt7xwsp+KAoEmt9nLaGitZxrBbPFNaGfPloGw2t4JVamSt8xYW6Dg1oCYo3Yv+rCGViV160oMkcd8SYKnYV1Nb1aEOjCe6L5ZOiLfF120EjWhuBu3YIZt1NQmujnk5F4MgOpURzLfAwOBSTmzp3fpDxuI/pabxpqOoz2r2HLAb0GMbZKlNV5/Hg9XJypguryA7lPF5KMdTZQzHjqxNPhWhzIuAruOl1eNqKEx1tSh5rfbxdw7mOxCq4qS68ZTjKS1YVvilu559vWvFHhh4rZrdyZ69Vmpgdj8fJbDZLJpNJ0uv1cnr/gjrUhQMuI+ANjyuwftQ0bbL6Erp0mM/ny8Fg4M3LtdRxgMtKl3jwmIHVxYXChFy94/Rmpa/pTbNUhstKV+4Rr8lLQ9KlUvJKLyG8yvQ2s9SBy1Jb7jV5a0yapfF6apaZLjLLcWtd4sNrmJUMHyM+1xibTjH82Zh01TNlhsrOhdKTe00uAzZQmN6+KW+sDa/JD2PSVQ873m29yf+1Q9VDzfEYlHi1G5LKBBWZbtEsHbFwb1oYDwr1ZiF/2bnCSg1OBE/pfr9/bWx26UxJL3ONPISOLKUvQza0LZUxSKyjpdTGa/vDEr25rddbMM0Q3O6Lx3rqFvU+x6UrRKQY7tyrZecmD9FODy8uLizTmilwNj0kraNcAJhOp5aGVwsAGD5VmJBrWWbJSgWT9zrzWepQF47RaGSiKfeGx6Szi3gzmX/HHbihwBser4B9UJYpFBNX4R6vTn3VQnez0SymnrHQMsRYGTr1dSk34ljRqS/EMd2pLQ8YBp3a1PLfcqCpo8gtHkZFHKkTX6fs3MY0blKnth66rKCnU0VRGu37ONrQaA4eZDFtWAu2fXj9zjFkxTBOo8F7t926gTp/83Kyzzcy2kZD6xiqxTYnHLRFm3vHiRSwNSjkz3hoIzo8lCKWUlg/YtGs7tObunDAZfpDLbfEI15zsEIY3U/x/gHHc/G1zltnAgAAAABJRU5ErkJggg==);
+    }
+
+    .about--options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100% !important;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
+    .about--options h3 {
+        position: absolute;
+        bottom: -38px;
+        left: 2px;
+        font-size: 10px;
+        text-transform: uppercase;
+        -webkit-transition: bottom .2s ease-in-out, left .2s ease-in-out;
+        transition: bottom .2s ease-in-out, left .2s ease-in-out;
+    }
+
+    .about--banner::before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: 200px;
+        -webkit-transform: rotate(
+    -25deg);
+        transform: rotate(
+    -25deg);
+        border: 5px solid #0f33ff;
+        display: none;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+    }
+
+    .about--banner::after {
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: 200px;
+        -webkit-transform: rotate(
+    -25deg);
+        transform: rotate(
+    -25deg);
+        border: 5px solid #0f33ff;
+        display: none;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+    }
+
+    .about--banner h2::before {
+        content: "";
+        position: absolute;
+        top: 60px;
+        left: 268px;
+        width: 30px;
+        height: 30px;
+        background-color: #0f33ff;
+        display: none;
+        border-radius: 50%;
+    }
+
+
+    .about--banner h2::after {
+        content: "";
+        position: absolute;
+        top: 255px;
+        left: 255px;
+        width: 10px;
+        height: 10px;
+        background-color: #0f33ff;
+        display: none;
+    }
+
+    @media (max-width: 600px)
+        .about--banner img {
+            display: flex !important;
+        }
+
+    #videoBG {
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+    }
+
+    .intro--banner::before {
+        display: none !important;
+    }
+
+    .intro--banner::after {
+        display: none !important;
+    }
+
+    .intro--banner h1 {
+        top: 20% !important;
+    }
+
+    .intro--options {
+        justify-content: space-evenly !important;
+        margin: 5px 0px 25px 10px;
+        padding: 5px 0px 20px 10px;
+        background-color: #00000017 !important;
+        backdrop-filter: blur(50px) !important;
+        border-radius: 30px !important;
+        width: 100% !important;
+        left: 0 !important;
+    }
+
+    .intro--options > a {
+        max-width: 550px;
+        text-decoration: none;
+        color: #011fca;
+        -webkit-transition: color .2s ease-in-out;
+        transition: color .2s ease-in-out;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .darkfire {
+        margin-top: 15vh !important;
+    }
+
+      .fire:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+
+      .blaze1 {
+        display: inline-block;
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+        line-height: 50px;
+        min-width: 50px;
+        outline: none;
+        vertical-align: middle;
+        text-shadow:
+              0 3px 20px red,
+              0 0 20px red,
+          0 0 10px orange,
+          4px -5px 6px yellow,
+          -4px -10px 10px yellow,
+          0 -10px 30px yellow;
+        animation: 5s blaze1 infinite alternate linear;
+      }
+
+      @keyframes blaze1 {
+        0%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+          0 0 10px orange,
+          0 0 0 yellow,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          4px -10px 10px yellow; }
+        25%   { text-shadow: 0 3px 20px red, 0 0 30px red,
+          0 0 20px orange,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          3px -10px 10px yellow,
+          -4px -15px 20px yellow; }
+        50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+          0 -5px 10px orange,
+          -2px -5px 5px yellow,
+          3px -10px 10px yellow,
+          -4px -15px 20px yellow,
+          2px -20px 30px rgba(255,255,0,0.5); }
+        75%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+          0 -5px 10px orange,
+          3px -5px 5px yellow,
+          -4px -10px 10px yellow,
+          2px -20px 30px rgba(255,255,0,0.5),
+          0px -25px 40px rgba(255,255,0,0)}
+        100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+          0 0 10px orange,
+          0 0 0 yellow,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          4px -10px 10px yellow; }
+      }
+
+      .blaze2 {
+        display: inline-block;
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+        line-height: 50px;
+        min-width: 50px;
+        outline: none;
+        vertical-align: middle;
+        text-shadow:
+              0 3px 20px red,
+              0 0 20px red,
+          0 0 10px orange,
+          4px -5px 6px yellow,
+          -4px -10px 10px yellow,
+          0 -10px 30px yellow;
+        animation: 3s blaze2 infinite alternate linear;
+      }
+
+      @keyframes blaze2 {
+        0%   { text-shadow: 0 5px 22px red, 0 0 21px red,
+          0 0 10px orange,
+          0 0 0 yellow,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          4px -10px 10px yellow; }
+        25%   { text-shadow: 0 4px 21px red, 0 0 28px red,
+          0 0 20px orange,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          3px -10px 10px yellow,
+          -4px -15px 20px yellow; }
+        50%   { text-shadow: 0 7px 17px red, 0 0 27px red,
+          0 -5px 10px orange,
+          -2px -5px 5px yellow,
+          3px -10px 10px yellow,
+          -4px -15px 20px yellow,
+          2px -20px 30px rgba(255,255,0,0.5); }
+        75%   { text-shadow: 0 1px 30px red, 0 0 28px red,
+          0 -5px 10px orange,
+          3px -5px 5px yellow,
+          -4px -10px 10px yellow,
+          2px -20px 30px rgba(255,255,0,0.5),
+          0px -25px 40px rgba(255,255,0,0)}
+        100%   { text-shadow: 0 6px 15px red, 0 0 33px red,
+          0 0 10px orange,
+          0 0 0 yellow,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          4px -10px 10px yellow; }
+      }
+
+      .blaze3 {
+        display: inline-block;
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+        line-height: 50px;
+        min-width: 50px;
+        outline: none;
+        vertical-align: middle;
+        text-shadow:
+              0 3px 20px red,
+              0 0 20px red,
+          0 0 10px orange,
+          4px -5px 6px yellow,
+          -4px -10px 10px yellow,
+          0 -10px 30px yellow;
+        animation: 7s blaze3 infinite alternate linear;
+      }
+
+      @keyframes blaze3 {
+        0%   { text-shadow: 0 7px 20px red, 0 0 21px red,
+          0 0 10px orange,
+          0 0 0 yellow,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          4px -10px 10px yellow; }
+        25%   { text-shadow: 0 4px 26px red, 0 0 21px red,
+          0 0 20px orange,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          3px -10px 10px yellow,
+          -4px -15px 20px yellow; }
+        50%   { text-shadow: 0 10px 27px red, 0 0 22px red,
+          0 -5px 10px orange,
+          -2px -5px 5px yellow,
+          3px -10px 10px yellow,
+          -4px -15px 20px yellow,
+          2px -20px 30px rgba(255,255,0,0.5); }
+        75%   { text-shadow: 0 10px 22px red, 0 0 18px red,
+          0 -5px 10px orange,
+          3px -5px 5px yellow,
+          -4px -10px 10px yellow,
+          2px -20px 30px rgba(255,255,0,0.5),
+          0px -25px 40px rgba(255,255,0,0)}
+        100%   { text-shadow: 0 2px 19px red, 0 0 23px red,
+          0 0 10px orange,
+          0 0 0 yellow,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          4px -10px 10px yellow; }
+      }
+
+      .blaze4 {
+        display: inline-block;
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+        line-height: 50px;
+        min-width: 50px;
+        outline: none;
+        vertical-align: middle;
+        text-shadow:
+              0 3px 20px red,
+              0 0 20px red,
+          0 0 10px orange,
+          4px -5px 6px yellow,
+          -4px -10px 10px yellow,
+          0 -10px 30px yellow;
+        animation: 10s blaze4 infinite alternate linear;
+      }
+
+      @keyframes blaze4 {
+        0%   { text-shadow: 0 14px 40px red, 0 0 42px red,
+          0 0 10px orange,
+          0 0 0 yellow,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          4px -10px 10px yellow; }
+        25%   { text-shadow: 0 8px 52px red, 0 0 44px red,
+          0 0 20px orange,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          3px -10px 10px yellow,
+          -4px -15px 20px yellow; }
+        50%   { text-shadow: 0 20px 54px red, 0 0 37px red,
+          0 -5px 10px orange,
+          -2px -5px 5px yellow,
+          3px -10px 10px yellow,
+          -4px -15px 20px yellow,
+          2px -20px 30px rgba(255,255,0,0.5); }
+        75%   { text-shadow: 0 21px 44px red, 0 0 36px red,
+          0 -5px 10px orange,
+          3px -5px 5px yellow,
+          -4px -10px 10px yellow,
+          2px -20px 30px rgba(255,255,0,0.5),
+          0px -25px 40px rgba(255,255,0,0)}
+        100%   { text-shadow: 0 29px 39px red, 0 0 23px red,
+          0 0 10px orange,
+          0 0 0 yellow,
+          0 0 5px yellow,
+          -2px -5px 5px yellow,
+          4px -10px 10px yellow; }
+      }
+
+      .outer-nav {
+          position: absolute;
+          top: 50%;
+          left: 55%;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+          -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+          margin: 0;
+          padding: 0px;
+          list-style: none;
+          text-align: center;
+          visibility: hidden;
+          -webkit-transition: visibility 0s .2s;
+          transition: visibility 0s .2s;
+          width: 40%;
+          height: auto;
+      }
+
+      .outer-nav>li::before {
+              display: none !important;
+      } 
+
+      .outer-nav > li.is-active {
+        display: inline-block;
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        line-height: 50px;
+        min-width: 50px;
+        outline: none;
+        vertical-align: middle;
+        text-shadow:
+              0 3px 20px red,
+              0 0 20px red,
+          0 0 10px orange,
+          4px -5px 6px yellow,
+          -4px -10px 10px yellow,
+          0 -10px 30px yellow;
+        animation: 15s blaze4 infinite alternate linear;
+      }
+
+      .about--options > a:hover h3 {
+          bottom: -50px;
+          display: inline-block;
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        line-height: 50px;
+        min-width: 50px;
+        outline: none;
+        vertical-align: middle;
+        text-shadow:
+              0 3px 20px red,
+              0 0 20px red,
+          0 0 10px orange,
+          4px -5px 6px yellow,
+          -4px -10px 10px yellow,
+          0 -10px 30px yellow;
+        animation: 15s blaze1 infinite alternate linear;
+      }
+
+      .side-nav li.is-active span {
+          opacity: 1;
+          visibility: visible;
+          -webkit-transition: opacity .4s ease-in-out;
+          transition: opacity .4s ease-in-out;
+          margin: 0;
+          color: rgb(255, 255, 255);
+          font-size: 14px;
+          outline: none;
+          vertical-align: middle;
+          text-shadow:
+                0 3px 20px red,
+                0 0 20px red,
+            0 0 10px orange,
+            4px -5px 6px yellow,
+            -4px -10px 10px yellow,
+            0 -10px 30px yellow;
+          animation: 15s blaze3 infinite alternate linear;
+      }
+
+      .about--banner a {
+          padding: 5px 17px 5px 0;
+          text-decoration: none;
+          font-weight: 700;
+          text-transform: uppercase;
+          background-color: transparent;
+          margin: 0;
+          color: rgb(255, 255, 255);
+          font-size: 14px;
+          outline: none;
+          vertical-align: middle;
+          text-shadow:
+                0 3px 20px red,
+                0 0 20px red,
+            0 0 10px orange,
+            4px -5px 6px yellow,
+            -4px -10px 10px yellow,
+            0 -10px 30px yellow;
+          animation: 15s blaze2 infinite alternate linear;
+      }
+
+      .header--cta {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          padding: 0 20px;
+          line-height: 30px;
+          text-decoration: none;
+          color: #fff;
+          font-weight: 700;
+          cursor: pointer;
+          text-transform: uppercase;
+          background-color: #0f33ff;
+          border: none;
+          opacity: 0;
+          visibility: hidden;
+          -webkit-transition: opacity .4s ease-in-out, visibility 0s .4s;
+          transition: opacity .4s ease-in-out, visibility 0s .4s;
+      }
+
+      .container-buy {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20% 50%;
+        grid-auto-flow: row;
+        align-content: center;
+        justify-content: center;
+        grid-template-areas:
+          "MAGM-on-Cardano MAGM-on-Binance MAGM-on-Polkadot"
+          "MAGM-on-Algorand MAGM-on-Algorand MAGM-on-Algorand"
+          "MAGM-on-Ethereum MAGM-on-Solana MAGM-on-Tron";
+      }
+
+      .MAGM-on-Cardano { grid-area: MAGM-on-Cardano; }
+      .MAGM-on-Polkadot { grid-area: MAGM-on-Polkadot; }
+      .MAGM-on-Algorand { grid-area: MAGM-on-Algorand; }
+      .MAGM-on-Ethereum { grid-area: MAGM-on-Ethereum; }
+      .MAGM-on-Solana { grid-area: MAGM-on-Solana; }
+      .MAGM-on-Tron { grid-area: MAGM-on-Tron; }
+      .MAGM-on-Binance { grid-area: MAGM-on-Binance; }
+
+      .container-contact {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0% 0%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "coin address email"
+          "twitterz redditz facebookz"
+          "ad1 discordz ad2";
+      }
+
+      .twitterz { grid-area: twitterz; }
+
+      .redditz { grid-area: redditz; }
+
+      .facebookz { grid-area: facebookz; }
+
+      .discordz { grid-area: discordz; }
+
+      .ad1 { grid-area: ad1; }
+
+      .ad2 { grid-area: ad2; }
+
+      .coin { grid-area: coin; }
+
+      .address { grid-area: address; }
+
+      .email { grid-area: email; }
+
+      .email {
+          grid-area: email;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: flex-end;
+          align-items: center;
+          line-height: 5px;
+      }
+
+      .address {
+          grid-area: address;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+          line-height: 18px;
+      }
+
+      .coin {
+          grid-area: coin;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .twitterz {
+          grid-area: twitterz;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .discordz {
+          grid-area: discordz;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .facebookz {
+          grid-area: facebookz;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .redditz {
+          grid-area: redditz;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .contact--lockup .modalx--information p, .contact--lockup .modalx--information a {
+          display: block;
+          margin: 8px 0;
+          text-decoration: none;
+          color: #fff;
+          font-weight: 400;
+      }
+
+      .ad2 {
+          grid-area: ad2;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .ad1 {
+          grid-area: ad1;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .device-notification--message {
+          width: 100%;
+          margin: 1px 0 0 0;
+          font-weight: 700;
+          text-align: center;
+          display: none !important;
+      }
+
+      .device-notification {
+          display: none !important;
+      }
+
+      .header {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          width: 100%;
+          height: 8%;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          z-index: 10;
+      }
+
+      @media (max-width: 767px)
+        .work--lockup .slider {
+            width: 100% !important;
+        }
+
+  </style>
+  <script>
+    $("#fade").modal({
+      fadeDuration: 100
+    });
+  </script>
+</head>
+<body>
+  <!-- notification for small viewports and landscape oriented smartphones -->
+  <div class="device-notification">
+    <a class="device-notification--logo">
+      <img src="assets/img/volcano.gif" border="0" width="7%" height="auto" alt="MAGMA TOKEN">
+      <p>MAGMA</p>
+    </a>
+    <p class="device-notification--message">MAGMA Token is a multichain crypto-token designed and developed for The Verse...</p>
+  </div>
+  <div class="perspective effect-rotate-left">
+    <div class="container"><div class="outer-nav--return"></div>
+      <div id="viewport" class="l-viewport">
+        <div class="l-wrapper">
+          <header class="header">
+            <a class="header--logo" href="#0">
+              <img src="assets/img/volcano.gif" border="0" width="7%" height="auto" alt="MAGMA TOKEN">
+              <p>MAGMA</p>
+            </a>
+            <a class="button header--cta cta"> BUY $MAGM &#127755; </a>
+            <div class="header--nav-toggle">
+              <span></span>
+            </div>
+          </header>
+          <nav class="l-side-nav">
+            <ul class="side-nav">
+              <li class="is-active"><span>Home</span></li>
+              <li><span>Blockchains</span></li>
+              <li><span>About</span></li>
+              <li><span>Contact</span></li>
+              <li><span>Buy &#127755;</span></li>
+            </ul>
+          </nav>
+          <ul class="l-main-content main-content">
+            <li class="l-section section section--is-active">
+              <div class="intro">
+                <div class="intro--banner">
+                  <div class="darkfire">"<h1 class="blaze2">FUTURE</h1><br><h1 class="blaze1">CROSS-CHAIN</h1><br><h1 class="blaze3">COMPATI</h1><h1 class="blaze4">BILITY</h1></div>
+                  <video id="videoBG" poster="assets/video/poster.jpg" autoplay muted loop>
+                    <source src="assets/video/magma.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="intro--options">
+                  <a href="#0">
+                    <h3 class="blaze1">The</h3> <h3 class="blaze4">Verse</h3>
+                    <p>MAGMA is what powers The Verse, an open source playable communication platform with a full economy.</p>
+                  </a>
+                  <a href="#0">
+                    <h3 class="blaze2">Multichain</h3> <h3 class="blaze4">Token</h3>
+                    <p>MAGMA is currently on the Algorand and Cardano blockchains and more are coming soon!</p>
+                  </a>
+                  <a href="#0">
+                    <h3 class="blaze3">Utilities</h3>
+                    <p>We are working on a suite of utilities to use with MAGMA utilities such atomic swap and more are coming soon!</p>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="work">
+                <h2 class="blaze4">BLOCKCHAINS</h2>
+                <div class="work--lockup">
+                  <ul class="slider">
+                    <li class="slider--item slider--item-left">
+                      <a href="#0">
+                        <div class="slider--item-image">
+                          <img src="assets/img/cardano.webp" alt="Cardano">
+                        </div>
+                        <p class="slider--item-title">MAGMA Token on Cardano</p>
+                        <p class="slider--item-description">We are currently building the Cardano version of MAGMA!</p>
+                      </a>
+                    </li>
+                    <li class="slider--item slider--item-center">
+                      <a href="#" target="_blank">
+                        <div class="slider--item-image">
+                          <img src="assets/img/algo.webp" alt="Buy MAGMA with Algorand!">
+                        </div>
+                        <p class="slider--item-title">MAGMA Token on Algorand</p>
+                        <p class="slider--item-description"></p>
+                        </a>
+                    </li>
+                    <li class="slider--item slider--item-right">
+                      <a href="#0">
+                        <div class="slider--item-image">
+                          <img src="assets/img/polkadot.webp" alt="Polkadot">
+                        </div>
+                        <p class="slider--item-title">MAGMA Token on Polkadot</p>
+                        <p class="slider--item-description">We are currently building the Polkadot version of MAGMA!</p>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="slider--prev">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                      c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                      c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                    </g>
+                    </svg>
+                  </div>
+                  <div class="slider--next">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="about">
+                <div id="cover"></div>
+                <div class="about--banner">
+                  <h2>We<br>believe in<br>passionate<br>people</h2>
+                  <a href="#0">Career
+                    <span>
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                        <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                      </g>
+                      </svg>
+                    </span>
+                  </a>
+                  <img src="assets/img/about-visual.png" alt="About Us">
+                </div>
+                <div class="about--options">
+                  <a href="https://magm.red/timeline.html" rel="modal:open">
+                    <h3>TIMELINE</h3>
+                  </a>
+                  <a href="#0">
+                    <h3>TOKENOMICS</h3>
+                  </a>
+                  <a class="nth-child(3)" href="https://magm.red/firepaper.html" rel="modal:open">
+                      <h3>FIREPAPER</h3>
+                  </a>
+                  <a class="nth-child(4)" href="#0">
+                      <h3>SECURITY</h3>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="contact">
+                      <div class="contact--lockup">
+                        <div class="modalx">
+                            <div class="modalx--information">
+                              <div class="container-contact">
+                                  <div class="coin"><a href="https://tinychart.org/asset/445362421" ref="modal:open"><center><img src="apple-touch-icon.png" width="40%" height="auto"></center></a></div>
+                                  <div class="address"><b>ADDRESS:</b> <i>5570 FM 423 Suite 250 Frisco, TX 75036</i></div>
+                                  <div class="email">Email us: <script language="JavaScript" type="text/javascript">
+                                        var part1 = "magma";
+                                        var part2 = Math.pow(2,6);
+                                        var part3 = String.fromCharCode(part2);
+                                        var part4 = "redeaux.games";
+                                        var part5 = part1 + String.fromCharCode(part2) + part4;
+                                        document.write("<a href=" + "mai" + "lto" + ":" 
+                                        + part5 + ">" + part1 + part3 + part4 + "</a>");
+                                      </script>
+                                  </div>
+                                  <br>
+                                  <div class="twitterz"><a href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Eredeauxg&region=follow_link&screen_name=redeauxg" target="_blank"><center><img src="assets/img/twitter.png" width="30%" height="auto" border="0"></a></center><h5>Follow us on Twitter!</h5></div>
+                                  <div class="discordz"><a href="https://discord.gg/ZrktqrRdXN" target="_blank"><center><img src="assets/img/discord.png" width="30%" height="auto" border="0"></center><h5>Join our Discord Server</h5></a></div>
+                                  <div class="facebookz"><a href="https://www.facebook.com/MAGMA-100145769197096" target="_blank"><center><img src="assets/img/facebook.png" width="30%" height="auto" border="0"></a></center><h5>Like us on Facebook</h5></div>
+                                  <div class="redditz"><a href="https://www.reddit.com/r/magm" target="_blank"><center><img src="assets/img/reddit.png" width="30%" height="auto" border="0"></a></center><h5>Join r/magm</h5></div>
+                                  <div class="ad1"></div>
+                                  <div class="ad2"><a href="http://eepurl.com/hDoZ1b" target="_blank"><center><img src="assets/img/news.png" width="30%" height="auto" border="0"></a></center><h5>Subscribe to our newsletter.</h5></div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="hire">
+                <div class="hire==lockup">         
+                  <div class="container-buy">
+                    <div class="MAGM-on-Cardano">MAGMA is coming to Cardano soon!</div>
+                    <div class="MAGM-on-Polkadot">MAGMA is coming to Polkadot soon!</div>
+                    <div class="MAGM-on-Algorand"><center>MAGMA is live on the Algorand blockchain!</center>
+                      <br><center><a class="button" href="https://magm.red/algo-to-magm.html" rel="modal:open"><i>ALGO</i><b>2</b><i>MAGMA</i></a></center>
+                    </div>
+                    <div class="MAGM-on-Ethereum">MAGMA is coming to Ethereum soon!</div>
+                    <div class="MAGM-on-Solana">MAGMA is coming to Solana soon!</div>
+                    <div class="MAGM-on-Tron">MAGMA is coming to Tron soon!</div>
+                    <div class="MAGM-on-Binance">MAGMA is coming to Binance soon!</div>
+                  </div>
+                </div>
+              </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <ul class="outer-nav">
+      <li class="is-active">HOME</li>
+      <li>BLOCKCHAINS</li>
+      <li>ABOUT</li>
+      <li>CONTACT</li>
+      <li>BUY &#127755;</a></li>
+    </ul>
+  </div>
+  <div id="ex1" class="modal">
+      <center><p><h2>MAGMA on Algorand</h2></p></center>
+  </div>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
 </body>
 </html>
