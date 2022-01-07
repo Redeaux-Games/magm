@@ -35,6 +35,6 @@ issuer="GCQQ3D37HAJPPNSJJ7546F6APLVETOOHAZHC2ZIX7GL533TDFDPAZVPS"
 display_decimals=7
 name="MAGMA"
 desc="MAGMA Token is a cross-chain token, that powers the economy in The Verse, an upcoming metaverse experience."
-conditions="There will only ever be 700,000,000 MAGM tokens on the Stellar blockchain."
+conditions="There will only ever be 777,000,000 MAGM tokens on the Stellar blockchain."
 image="https://magm.red/magm-token-stellar-sm.png"
 fixed_number=777000000
