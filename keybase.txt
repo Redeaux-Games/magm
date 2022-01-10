@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/magm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://magm.red
+  * I am magm (https://keybase.io/magm) on keybase.
+  * I have a public key ASD_PbWnjzB67GBhJnXdYN2802BjrNdrsfKuduTCd7WKvQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120081350502fd15ba301da888235881328f3eb548058d6bbf370c72bd724cca5e60a",
+      "host": "keybase.io",
+      "kid": "0120ff3db5a78f307aec60612675dd60ddbcd36063acd76bb1f2ae76e4c277b58abd0a",
+      "uid": "c8f713d36660105cf80f24a25a3f2919",
+      "username": "magm"
+    },
+    "merkle_root": {
+      "ctime": 1641777370,
+      "hash": "51651f337643a273acfd3d5b9cf91e6719210c9e54f32ae794bfdb250b84b7d3ebed5f9f11b8ec5db2e75871191b93d6cea26a17a0eb2bec6b0cd871bc3b3565",
+      "hash_meta": "6424c353284f9f5f09db12355c782e4f4737766ee30579b75c2ea632553a81f8",
+      "seqno": 21597343
+    },
+    "service": {
+      "entropy": "cabb/rsFrk9QRvMnYb50wncf",
+      "hostname": "magm.red",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1641777400,
+  "expire_in": 504576000,
+  "prev": "c99c4be5b82d0864e13e1e0089d505bd2425bf655bc0b438c7c2474b9afa439c",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/z21p48weuxgYSZ13WDdvNNgY6zXa7Hyrnbkwne1ir0Kp3BheWxvYWTESpcCF8QgyZxL5bgtCGThPh4AidUFvSQlv2VbwLQ4x8JHS5r6Q5zEILp4zSy3odZFeqeySKJoBs3Xz4OnrkmJtGJYYSq3SZyPAgHCo3NpZ8RAo96ER1NvNhgSwbjjQCz8LqJ3skiSbHALQBrp5GxCnecke7Yymx3m0mpwVF0sQe/t5+7L3tJYnt9V4YPARwXhBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJRMW22+oK2NDTurE3nl2KylL/Gb8IzDB9DpkQdMHlYuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/magm
+
+==================================================================
