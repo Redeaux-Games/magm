@@ -27,7 +27,7 @@ twitter="redeauxg"
 github="floatbeta"
 
 [[CURRENCIES]]
-code="MAGM"
+code="MAGMA"
 status="live"
 issuer="GCQQ3D37HAJPPNSJJ7546F6APLVETOOHAZHC2ZIX7GL533TDFDPAZVPS"
 display_decimals= 7
