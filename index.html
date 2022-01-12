@@ -772,6 +772,9 @@
             width: 100% !important;
         }
 
+        button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	    background-color: #000000 !important;
+	}
   </style>
   <script>
     $("#fade").modal({
@@ -877,7 +880,22 @@
 				  x-class-name="albedo-button"
 				  x-title="ADD MAGMA TRUSTLINE" 
 				  async>
-				</script></p>
+				</script><br>Buy MAGMA on Stellar<br>
+				<script src="https://albedo.link/albedo-intent-button.js"
+				  x-intent="exchange"
+				  x-amount="1"
+				  x-max_price="100.00"
+				  x-buy_asset_code="MAGMA"
+				  x-buy_asset_issuer="GCQQ3D37HAJPPNSJJ7546F6APLVETOOHAZHC2ZIX7GL533TDFDPAZVPS"
+				  x-network="public"
+				  x-height="30"
+				  x-width="200"
+				  x-class-name="albedo-button"
+				  x-title="BUY 1 MAGMA" 
+				  async>
+				</script>
+				<br><b><i>Or buy on a <a href="https://magm.red/magm-stellar.html" rel="modal:open">dex</a>.</i></b>
+				</center><br></p>
                       </a>
                     </li>
                   </ul>
