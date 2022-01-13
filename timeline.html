@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="assets/css/timeline.css">
     <style>
             @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
@@ -23,9 +24,10 @@
                 position: relative;
                 display: flex;
                 margin: 5px 0 !important;
+                width: 50% !important;
                 border-radius: 16px;
                 align-self: center;
-                /* width: 15vw; */
+                
             }
 
             .timeline__event__icon {
@@ -48,6 +50,7 @@
 
             .timeline__event:nth-child(2n+1) .timeline__event__date {
                 border-radius: 0 34px 34px 0;
+                width: 25% !important;
             }
 
             .timeline__event__date {
@@ -62,6 +65,7 @@
                 white-space: nowrap;
                 padding: 0 25px;
                 border-radius: 34px 0 0 34px;
+                width: 25% !important;
             }
 
             .timeline__event:nth-child(2n+1) .timeline__event__content {
@@ -73,7 +77,7 @@
                 box-shadow: 0 30px 60px -12px rgb(50 50 93 / 25%), 0 18px 36px -18px rgb(0 0 0 / 30%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
                 background: #28282863;
                 backdrop-filter: blur(345px);
-                width: calc(40vw - 84px);
+                width: 50% !important;
                 border-radius: 0 24px 24px 0;
             }
 
@@ -87,6 +91,7 @@
                 color: #87bbfeeb;
                 backdrop-filter: blur(35px);
                 background: #555ac0;
+                width: 50% !important;
             }
 
             body::-webkit-scrollbar {
@@ -325,7 +330,7 @@
     </style>
 </head>
 <body>
-    <div class="darkfire"><h2 class="blaze2">TIME<h2 class="blaze3">LINE</h2></div>
+    <div class="darkfire"><center><h2 class="blaze2">TIME<h2 class="blaze3">LINE</h2></center></div>
         <br>
         <div class="timeline"> 
             <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
