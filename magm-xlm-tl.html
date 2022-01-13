@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8" />	
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>Add MAGMA Token Trustline</title>
+	<style>
+		.modal.show .modal-dialog {
+		top: 0 !important;
+		background-color: #0000007a !important;
+		backdrop-filter: blur(20px) !important;
+		border: 1px solid rgba(0,0,0,.7) !important;
+		border-radius: 1.2999999999999998rem !important;
+	    }
+
+		body {
+			margin: 0;
+			font-family: var(--bs-body-font-family);
+			font-size: var(--bs-body-font-size);
+			font-weight: var(--bs-body-font-weight);
+			line-height: var(--bs-body-line-height);
+			color: #e9ecef;
+			text-align: var(--bs-body-text-align);
+			background-color: #212529;
+			-webkit-text-size-adjust: 100%;
+			-webkit-tap-highlight-color: transparent;
+			overflow-x: auto;
+			overflow-x: visible;
+		}
+
+		.modal-footer-cr {
+			flex-wrap: wrap;
+			flex-shrink: 0;
+			display: none !important;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0.75rem;
+			border-top: 1px solid #dee2e6;
+			border-bottom-right-radius: calc(0.3rem - 1px);
+			border-bottom-left-radius: calc(0.3rem - 1px);
+			flex-direction: row;
+			font-size: small;
+		}
+
+		.btn-primary, .btn-primary:hover {
+			color: #fff;
+			background-color: #ff0000 !important;
+			border-color: #4550e6 !important;
+		}
+    
+        button, html input[type="button"], input[type="reset"], input[type="submit"] {
+            background-color: #000000 !important;
+        }
+	</style>
+    </head>
+    <body>
+		<br><br>
+		<center>
+          <script src="https://albedo.link/albedo-intent-button.js"
+            x-intent="trust"
+            x-asset_code="MAGMA"
+            x-asset_issuer="GCQQ3D37HAJPPNSJJ7546F6APLVETOOHAZHC2ZIX7GL533TDFDPAZVPS"
+            x-limit="777000000"
+            x-network="public"
+            x-height="30"
+            x-width="200"
+            x-class-name="albedo-button"
+            x-title="sign transaction" 
+            async>
+          </script>
+      <br>
+      <h4><b>Already added the trustline? Then <a href="#" rel="modal:close">close</a> this window.</b></h4>
+      <br>
+	  </center>
+</body>
+</html>
