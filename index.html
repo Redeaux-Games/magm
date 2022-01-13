@@ -771,6 +771,10 @@
         .work--lockup .slider {
             width: 100% !important;
         }
+			    
+	        button, html input[type="button"], input[type="reset"], input[type="submit"] {
+		    background-color: #000000 !important;
+		}
   </style>
   <script>
     $("#fade").modal({
@@ -865,10 +869,21 @@
                         </div>
 			<p class="slider--item-title"><h3>MAGMA Token on Stellar</h3></p>
                         <p class="slider--item-description"><center><br>
-				<br><a href="https://magm.red/magm-xlm-tl.html" rel="modal:open">ADD TRUSTLINE</a>
+				<br>
+				  <script src="https://albedo.link/albedo-intent-button.js"
+				    x-intent="trust"
+				    x-asset_code="MAGMA"
+				    x-asset_issuer="GCQQ3D37HAJPPNSJJ7546F6APLVETOOHAZHC2ZIX7GL533TDFDPAZVPS"
+				    x-limit="777000000"
+				    x-network="public"
+				    x-height="30"
+				    x-width="200"
+				    x-class-name="albedo-button"
+				    x-title="ADD TRUSTLINE" 
+				    async>
+				  </script>
 				<br>
 				<br><a href="https://magm.red/magm-stellar.html" rel="modal:open">BUY MAGMA ON STELLAR</a>
-				<a href="https://keybase.io/team/magmatoken" target="_blank"><img src="keybase.png" width="15%" height="auto" border="0"></a></center>
 			</p>
                       </a>
                     </li>
