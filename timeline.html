@@ -1,407 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="assets/css/timeline.css">
-    <style>
-            @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+  <meta charset="UTF-8">
+  <title>MAGMA Roadmap</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;700&display=swap" rel="stylesheet">
+  <style>
+	body {
+		font-size: 14px;
+		line-height: 1.5;
+		background-color: #1c1c1c;
+		background-image: url(https://magm.red/veins.webp);
+		background-repeat: no-repeat;
+    	background-attachment: fixed;
+		font-family: 'Titillium Web', sans-serif !important;
+	}
 
-            body {
-            color: rgb(238 237 247) !important;
-            background-color: #000000 !important;
-            }
-    
-            h2 {
-            font-family: 'Rock 3D', cursive !important;
-            margin: 0 !important;
-            text-align: center;
-            font-size: 2rem !important;
-            font-weight: 700 !important;
-            }
+	.timeline-item {
+    padding: 2em 2em 2em;
+		position: relative;
+		color: rgb(19, 19, 19);
+		border-left: 2px solid rgb(0 0 0 / 65%);
+		border-top: 2px solid rgb(0 0 0 / 60%);
+		border-right: 2px solid rgb(0 0 0 / 55%);
+		border-bottom: 2px solid rgb(0 0 0 / 49%);
+		border-radius: 15px;
+		background-color: rgb(255 255 255 / 75%);
+		backdrop-filter: blur(4px);
+	}
+	a {
+		text-decoration: none;
+		color: rgb(46, 46, 46);
+	}
+	a:hover {
+		color: rgb(65, 65, 65);
+	}
+	a:visited {
+		color: rgb(59, 59, 59);
+	}
 
-            .timeline__event {
-                margin-bottom: 5px;
-                position: relative;
-                display: flex;
-                margin: 5px 0 !important;
-                width: 50% !important;
-                border-radius: 16px;
-                align-self: center;
-                
-            }
-
-            .timeline__event__icon {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: #9251ac;
-                padding: 20px;
-                align-self: center;
-                margin: 0 20px;
-                background: #f6a4ecdb;
-                backdrop-filter: blur(10px);
-                border-radius: 100%;
-                width: 40px;
-                box-shadow: 0 30px 60px -12px rgb(50 50 93 / 25%), 0 18px 36px -18px rgb(0 0 0 / 30%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
-                padding: 40px;
-                height: 40px;
-                position: relative;
-            }
-
-            .timeline__event:nth-child(2n+1) .timeline__event__date {
-                border-radius: 0 34px 34px 0;
-                width: 25% !important;
-            }
-
-            .timeline__event__date {
-                color: #f6a4ec;
-                font-size: 1.5rem;
-                font-weight: 600;
-                background: #9251acf2;
-                backdrop-filter: blur(30px);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                white-space: nowrap;
-                padding: 0 25px;
-                border-radius: 34px 0 0 34px;
-                width: 25% !important;
-            }
-
-            .timeline__event:nth-child(2n+1) .timeline__event__content {
-                border-radius: 24px 0 0 24px;
-            }
-
-            .timeline__event__content {
-                padding: 20px;
-                box-shadow: 0 30px 60px -12px rgb(50 50 93 / 25%), 0 18px 36px -18px rgb(0 0 0 / 30%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
-                background: #28282863;
-                backdrop-filter: blur(345px);
-                width: 50% !important;
-                border-radius: 0 24px 24px 0;
-            }
-
-            .timeline__event--type2 .timeline__event__icon {
-                background: #87bbfecf;
-                backdrop-filter: blur(20px);
-                color: #555ac0;
-            }
-
-            .timeline__event--type2 .timeline__event__date {
-                color: #87bbfeeb;
-                backdrop-filter: blur(35px);
-                background: #555ac0;
-                width: 50% !important;
-            }
-
-            body::-webkit-scrollbar {
-                width: 24px;               /* width of the entire scrollbar */
-                }
-
-                body::-webkit-scrollbar-track {
-                background: rgb(0, 0, 0);        /* color of the tracking area */
-                }
-
-                body::-webkit-scrollbar-thumb {
-                background-color: blue;    /* color of the scroll thumb */
-                border-radius: 20px;       /* roundness of the scroll thumb */
-                border: 3px solid rgb(255, 0, 0);  /* creates padding around scroll thumb */
-            }
-        
-   .darkfire {
-        margin-top: 15vh !important;
-    }
-
-      .fire:before {
-        content: '';
-        display: inline-block;
-        height: 100%;
-        vertical-align: middle;
-      }
-
-      .blaze1 {
-        display: inline-block;
-        margin: 0;
-        color: rgb(255, 255, 255);
-        font-size: 100px;
-        line-height: 50px;
-        min-width: 50px;
-        outline: none;
-        vertical-align: middle;
-        text-shadow:
-              0 3px 20px red,
-              0 0 20px red,
-          0 0 10px orange,
-          4px -5px 6px yellow,
-          -4px -10px 10px yellow,
-          0 -10px 30px yellow;
-        animation: 5s blaze1 infinite alternate linear;
-      }
-
-      @keyframes blaze1 {
-        0%   { text-shadow: 0 3px 20px red, 0 0 20px red,
-          0 0 10px orange,
-          0 0 0 yellow,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          4px -10px 10px yellow; }
-        25%   { text-shadow: 0 3px 20px red, 0 0 30px red,
-          0 0 20px orange,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          3px -10px 10px yellow,
-          -4px -15px 20px yellow; }
-        50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
-          0 -5px 10px orange,
-          -2px -5px 5px yellow,
-          3px -10px 10px yellow,
-          -4px -15px 20px yellow,
-          2px -20px 30px rgba(255,255,0,0.5); }
-        75%   { text-shadow: 0 3px 20px red, 0 0 20px red,
-          0 -5px 10px orange,
-          3px -5px 5px yellow,
-          -4px -10px 10px yellow,
-          2px -20px 30px rgba(255,255,0,0.5),
-          0px -25px 40px rgba(255,255,0,0)}
-        100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
-          0 0 10px orange,
-          0 0 0 yellow,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          4px -10px 10px yellow; }
-      }
-
-      .blaze2 {
-        display: inline-block;
-        margin: 0;
-        color: rgb(255, 255, 255);
-        font-size: 100px;
-        line-height: 50px;
-        min-width: 50px;
-        outline: none;
-        vertical-align: middle;
-        text-shadow:
-              0 3px 20px red,
-              0 0 20px red,
-          0 0 10px orange,
-          4px -5px 6px yellow,
-          -4px -10px 10px yellow,
-          0 -10px 30px yellow;
-        animation: 3s blaze2 infinite alternate linear;
-      }
-
-      @keyframes blaze2 {
-        0%   { text-shadow: 0 5px 22px red, 0 0 21px red,
-          0 0 10px orange,
-          0 0 0 yellow,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          4px -10px 10px yellow; }
-        25%   { text-shadow: 0 4px 21px red, 0 0 28px red,
-          0 0 20px orange,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          3px -10px 10px yellow,
-          -4px -15px 20px yellow; }
-        50%   { text-shadow: 0 7px 17px red, 0 0 27px red,
-          0 -5px 10px orange,
-          -2px -5px 5px yellow,
-          3px -10px 10px yellow,
-          -4px -15px 20px yellow,
-          2px -20px 30px rgba(255,255,0,0.5); }
-        75%   { text-shadow: 0 1px 30px red, 0 0 28px red,
-          0 -5px 10px orange,
-          3px -5px 5px yellow,
-          -4px -10px 10px yellow,
-          2px -20px 30px rgba(255,255,0,0.5),
-          0px -25px 40px rgba(255,255,0,0)}
-        100%   { text-shadow: 0 6px 15px red, 0 0 33px red,
-          0 0 10px orange,
-          0 0 0 yellow,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          4px -10px 10px yellow; }
-      }
-
-      .blaze3 {
-        display: inline-block;
-        margin: 0;
-        color: rgb(255, 255, 255);
-        font-size: 100px;
-        line-height: 50px;
-        min-width: 50px;
-        outline: none;
-        vertical-align: middle;
-        text-shadow:
-              0 3px 20px red,
-              0 0 20px red,
-          0 0 10px orange,
-          4px -5px 6px yellow,
-          -4px -10px 10px yellow,
-          0 -10px 30px yellow;
-        animation: 7s blaze3 infinite alternate linear;
-      }
-
-      @keyframes blaze3 {
-        0%   { text-shadow: 0 7px 20px red, 0 0 21px red,
-          0 0 10px orange,
-          0 0 0 yellow,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          4px -10px 10px yellow; }
-        25%   { text-shadow: 0 4px 26px red, 0 0 21px red,
-          0 0 20px orange,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          3px -10px 10px yellow,
-          -4px -15px 20px yellow; }
-        50%   { text-shadow: 0 10px 27px red, 0 0 22px red,
-          0 -5px 10px orange,
-          -2px -5px 5px yellow,
-          3px -10px 10px yellow,
-          -4px -15px 20px yellow,
-          2px -20px 30px rgba(255,255,0,0.5); }
-        75%   { text-shadow: 0 10px 22px red, 0 0 18px red,
-          0 -5px 10px orange,
-          3px -5px 5px yellow,
-          -4px -10px 10px yellow,
-          2px -20px 30px rgba(255,255,0,0.5),
-          0px -25px 40px rgba(255,255,0,0)}
-        100%   { text-shadow: 0 2px 19px red, 0 0 23px red,
-          0 0 10px orange,
-          0 0 0 yellow,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          4px -10px 10px yellow; }
-      }
-
-      .blaze4 {
-        display: inline-block;
-        margin: 0;
-        color: rgb(255, 255, 255);
-        font-size: 100px;
-        line-height: 50px;
-        min-width: 50px;
-        outline: none;
-        vertical-align: middle;
-        text-shadow:
-              0 3px 20px red,
-              0 0 20px red,
-          0 0 10px orange,
-          4px -5px 6px yellow,
-          -4px -10px 10px yellow,
-          0 -10px 30px yellow;
-        animation: 10s blaze4 infinite alternate linear;
-      }
-
-      @keyframes blaze4 {
-        0%   { text-shadow: 0 14px 40px red, 0 0 42px red,
-          0 0 10px orange,
-          0 0 0 yellow,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          4px -10px 10px yellow; }
-        25%   { text-shadow: 0 8px 52px red, 0 0 44px red,
-          0 0 20px orange,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          3px -10px 10px yellow,
-          -4px -15px 20px yellow; }
-        50%   { text-shadow: 0 20px 54px red, 0 0 37px red,
-          0 -5px 10px orange,
-          -2px -5px 5px yellow,
-          3px -10px 10px yellow,
-          -4px -15px 20px yellow,
-          2px -20px 30px rgba(255,255,0,0.5); }
-        75%   { text-shadow: 0 21px 44px red, 0 0 36px red,
-          0 -5px 10px orange,
-          3px -5px 5px yellow,
-          -4px -10px 10px yellow,
-          2px -20px 30px rgba(255,255,0,0.5),
-          0px -25px 40px rgba(255,255,0,0)}
-        100%   { text-shadow: 0 29px 39px red, 0 0 23px red,
-          0 0 10px orange,
-          0 0 0 yellow,
-          0 0 5px yellow,
-          -2px -5px 5px yellow,
-          4px -10px 10px yellow; }
-      }
-
-    </style>
+	.timeline-item::after {
+    width: 10px;
+		height: 10px;
+		display: block;
+		top: 1em;
+		position: absolute;
+		left: -7px;
+		border-radius: 10px;
+		content: '';
+		border: 2px solid rgba(0, 0, 0, 0.3);
+		background: white;
+		display: none;
+	}
+  </style>
 </head>
 <body>
-    <div class="darkfire"><center><h2 class="blaze2">TIME<h2 class="blaze3">LINE</h2></center></div>
-        <br>
-        <div class="timeline"> 
-            <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
-                <div class="timeline__event__icon ">
-                <i class="lni-cake"></i>
-
-                </div>
-                <div class="timeline__event__date">
-                November 27th, 2021
-                </div>
-                <div class="timeline__event__content ">
-                <div class="timeline__event__title">
-                    MAGMA was born!
-                </div>
-                <div class="timeline__event__description">
-                    <p>The very first version of MAGMA was launched on the Algorand blockchain. Web & socials were created and we started a giveaway and airdrop campaign.</p>
-                </div>
-                </div>
-            </div>
-            <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-                <div class="timeline__event__icon">
-                <i class="lni-burger"></i>
-
-                </div>
-                <div class="timeline__event__date">
-                January 10th, 2021
-                </div>
-                <div class="timeline__event__content">
-                <div class="timeline__event__title">
-                    MAGMA on ALGO Airdrop Event
-                </div>
-                <div class="timeline__event__description">
-                    <p>MAGMA on ALGO Airdrop will take place, and a pre-sale of land in The Verse will be available to buy!</p>
-                </div>
-                </div>
-            </div>
-            <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-                <div class="timeline__event__icon">
-                <i class="lni-slim"></i>
-
-                </div>
-                <div class="timeline__event__date">
-                June 2022
-                </div>
-                <div class="timeline__event__content">
-                <div class="timeline__event__title">
-                    The Verse Public Beta Release
-                </div>
-                <div class="timeline__event__description">
-                    <p>The Verse will be releasing a public beta version that will be on the MAGMA test network. The beta on testnet will be live for 6 months.</p>
-                </div>
-
-                </div>
-            </div>
-            <div class="timeline__event animated fadeInUp timeline__event--type1">
-                <div class="timeline__event__icon">
-                <i class="lni-cake"></i>
-
-                </div>
-                <div class="timeline__event__date">
-                November 2022
-                </div>
-                <div class="timeline__event__content">
-                <div class="timeline__event__title">
-                    The Verse Releases
-                </div>
-                <div class="timeline__event__description">
-                    <p>The Verse full release on the MAGMA mainnet will take place in Nov. 2022! </p>
-                </div>
-                </div>
-            </div>
-        </div>
+<div class="container">
+	<br>
+	<div class="timeline-item" date-is='11-28-2021'>
+		<h1>🌋 MAGMA on Algorand was created...</h1>
+		<p>
+			MAGM on ALGO was created with a maximum supply of 777,000,000 MAGMA, check it out on the <a href="https://algoexplorer.io/asset/445362421" target="_blank">block explorer</a>!
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='12-07-2021'>
+		<h1>🤩 MAGMA's Website & Socials Created...</h1>
+		<p>
+			We launched the <a href="https://magm.red" target="_blank">MAGMA Website</a>, and our <a href="https://discord.gg/aYcyjvDdNe" target="_blank">Discord</a> server.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='12-10-2021'>
+		<h1>🪂 The 1st MAGMA on ALGO Airdrop</h1>
+		<p>
+			The very first MAGM on ALGO airdrop went out, we gathered over 3,000 wallet holders within 13 days.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='12-13-2021'>
+		<h1>🔒 We locked-up 600 Million MAGMA on ALGO</h1>
+		<p>
+			We locked-up 600,000,000. MAGMA on Tinylock.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='12-25-2021'>
+		<h1>🎁 We gifted the #MAGMA_ARMY</h1>
+		<p>
+			On Christmas day we sent out an airdrop to the #MAGMA_ARMY, through <a href="https://discord.gg/aYcyjvDdNe" target="_blank">Discord</a>.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='01-01-2022'>
+		<h1>🎁 We gifted the #MAGMA_ARMY</h1>
+		<p>
+			On New Years @ 12am California time, we gifted our Discord members.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='01-02-2022'>
+		<h1>🥸 Tinyman Exploit Occured</h1>
+		<p>
+			On January 1st to 2nd the Tinyman Exploit happened that shut down the liquidity and trading.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='01-10-2022'>
+		<h1>🪂 The 2nd MAGMA on ALGO Airdrop</h1>
+		<p>
+			The second MAGM on ALGO airdrop went out, we gathered over 8,000 wallet holders within by this time.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='01-12-2022'>
+		<h1>🌋 MAGMA on Stellar was created!</h1>
+		<p>
+			We created MAGMA on Stellar with a maximum supply of 777,000,000 MAGMA! View it on the <a href="https://stellar.expert/explorer/public/asset/MAGMA-GCQQ3D37HAJPPNSJJ7546F6APLVETOOHAZHC2ZIX7GL533TDFDPAZVPS-2" target="_blank">block explorer</a>.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='01-31-2022'>
+		<h1>🪂 MAGMA on Stellar Early Adopter Airdrop!</h1>
+		<p>
+			We airdropped MAGMA on Stellar to early adopters through Keybase.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='02-01-2022'>
+		<h1>🪙 600 Million MAGMA was unlocked...</h1>
+		<p>
+			The original token lock expired on February 1st, 2022.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='02-04-2022'>
+		<h1>📈 PROOF OF LIQUIDITY(PoL) Rewards</h1>
+		<p>
+			We started offering a 10% reward when PoL is provided on our <a href="https://discord.gg/aYcyjvDdNe" target="_blank">Discord server</a>.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='02-26-2022'>
+		<h1>🪙 Locked-up 660 Million MAGMA + Liquidity</h1>
+		<p>
+			We re-locked 660,000,000 MAGMA till December 1st, 2028 on <a href="https://tinylock.org/search?asa1=445362421" target="_blank">TinyLock</a>, and we locked the liquidity pool on <a href="https://tinylock.org/search?asa1=553864467" target="_blank">TinyLock</a>!
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='02-27-2022'>
+		<h1>🪂 The 3rd MAGMA on ALGO Airdrop</h1>
+		<p>
+			The third MAGMA on Algorand airdrop, with a new eligibility requirements. A minimum of 0.001 MAGMA is required to receive it.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='02-28-2022'>
+		<h1>📨 Invite bounty program on Discord</h1>
+		<p>
+			We started an invitation bounty program on our <a href="https://discord.gg/aYcyjvDdNe" target="_blank">Discord server</a>, paying 0.25 MAGMA per accepted invite! Up to 20 accepted invites.
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='03-11-2022'>
+		<h1>🪂 The 4th MAGMA on ALGO Airdrop</h1>
+		<p>
+			The fourth MAGMA on Algorand Airdrop @ 12am Chicago time!
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='03-??-2022'>
+		<h1>🌋 MAGMA on Cardano will launch...</h1>
+		<p>
+			We minted 777 Million MAGMA on Cardano, we setting up the infrastructure for the ICO. To stay up to date, join us on <a href="https://discord.gg/aYcyjvDdNe" target="_blank">Discord</a>!
+		</p>
+	</div>
+	<br>
+	<div class="timeline-item" date-is='03-??-2022'>
+		<h1>🌋 MAGMA on Stellar becomes tethered...</h1>
+		<p>
+			We are tethering MAGMA on XLM to MAGMA on ALGO. To stay up to date, join us on <a href="https://discord.gg/aYcyjvDdNe" target="_blank">Discord</a>!
+		</p>
+	</div>
+	<br>
+</div>
 </body>
 </html>
