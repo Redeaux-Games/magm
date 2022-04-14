@@ -1,4 +1,14 @@
-            .input-lga {
+		.body-masked {
+		    background: #0000008a url(../images/loader.gif) no-repeat center center !important;
+		    backdrop-filter: blur(15px) !important;
+		}
+
+		.page-loader {
+		    background: #00000080a url(../images/loader.gif) no-repeat center center !important;
+		    backdrop-filter: blur(15px) !important;
+		}
+
+		.input-lga {
                 height: 55px;
                 width: 500px;
                 padding: 10px 16px;
