@@ -1,0 +1,156 @@
+            .input-lga {
+                height: 55px;
+                width: 500px;
+                padding: 10px 16px;
+                font-size: 18px;
+                line-height: 1.33;
+                border-radius: 6px;
+            }
+            
+            .form-control1 {
+                display: block;
+                width: 45%;
+                height: 55px;
+                padding: 6px 12px;
+                font-size: 14px;
+                line-height: 1.42857143;
+                color: #555;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+                box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+                -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+                transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            }
+
+            a:hover {
+                color: #e41919 !important;
+                text-decoration: none !important;
+            }
+            
+		.bot-menu {
+		    text-align: center;
+		    background: #222222 !important;
+		    font-weight: 400;
+		    color: #474747;
+		    font-size: 0;
+		    word-spacing: 0;
+		}
+		
+		.nav-bar-compact:hover, .nav-bar-compact.js-opened, .nbc-bg:hover, .js-nbc-bg:hover {
+		    background: rgb(18 18 18 / 50%) !important;
+		    backdrop-filter: blur(15px) !important;
+		}
+		
+		.nav-bar-compact {
+		    border-top-left-radius: 15px;
+		    border-top-right-radius: 15px;
+		    border-bottom-left-radius: 15px;
+		    border-bottom-right-radius: 15px;
+		}
+		
+		.nbc-menu-wrap {
+		    background: rgb(18 18 18 / 70%) !important;
+		    backdrop-filter: blur(15px) !important;
+		    border-top-left-radius: 15px;
+		    border-top-right-radius: 15px;
+		    border-bottom-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+		}
+		
+		.hs-line-10 {
+		    background: rgba(0,0,0, .0) !important;
+		    backdrop-filter: blur(10px);
+		    border-radius: 15px;
+		}
+		
+		.modal a.close-modal {
+		    top: 4.5px !important;
+		    left: 471.5px !important;
+		    width: 22px !important;
+		    height: 22px !important;
+		}
+		
+		.modal {
+		    overflow: hidden;
+		}
+		
+		.nft {
+		    top: 32px;
+		    left: 10px;
+		    position: absolute;
+		}
+		
+		    .darkfire {
+			margin-top: 10vh !important;
+		    }
+
+		      .fire:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+		      }
+
+		      .blaze1 {
+			display: inline-block;
+			margin: 0;
+			color: rgb(255, 255, 255);
+			font-size: 100px;
+			line-height: 50px;
+			min-width: 50px;
+			outline: none;
+			vertical-align: middle;
+			text-shadow:
+			      0 3px 20px red,
+			      0 0 20px red,
+			  0 0 10px orange,
+			  4px -5px 6px yellow,
+			  -4px -10px 10px yellow,
+			  0 -10px 30px yellow;
+			animation: 5s blaze1 infinite alternate linear;
+		      }
+
+		      @keyframes blaze1 {
+			0%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+			  0 0 10px orange,
+			  0 0 0 yellow,
+			  0 0 5px yellow,
+			  -2px -5px 5px yellow,
+			  4px -10px 10px yellow; }
+			25%   { text-shadow: 0 3px 20px red, 0 0 30px red,
+			  0 0 20px orange,
+			  0 0 5px yellow,
+			  -2px -5px 5px yellow,
+			  3px -10px 10px yellow,
+			  -4px -15px 20px yellow; }
+			50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+			  0 -5px 10px orange,
+			  -2px -5px 5px yellow,
+			  3px -10px 10px yellow,
+			  -4px -15px 20px yellow,
+			  2px -20px 30px rgba(255,255,0,0.5); }
+			75%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+			  0 -5px 10px orange,
+			  3px -5px 5px yellow,
+			  -4px -10px 10px yellow,
+			  2px -20px 30px rgba(255,255,0,0.5),
+			  0px -25px 40px rgba(255,255,0,0)}
+			100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+			  0 0 10px orange,
+			  0 0 0 yellow,
+			  0 0 5px yellow,
+			  -2px -5px 5px yellow,
+			  4px -10px 10px yellow; }
+		      }
+
+			.col-xs-4 {
+			    position: relative;
+			    min-height: 1px;
+			    padding-left: 0px !important;
+			    padding-right: 0px !important;
+			    width: 100% !important;
+			}
+			
