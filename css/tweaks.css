@@ -233,3 +233,7 @@
     top: 4px !important;
     left: 465px !important;
 }
+
+.blocker {
+    overflow: hidden !important;
+}
