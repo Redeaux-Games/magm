@@ -229,12 +229,13 @@
     overflow-y: auto !important;
     background: #1a1a1a00 !important;
     backdrop-filter: blur(20px) !important;
-    padding: 40px 14px !important;
+    padding: 40px 1px !important;
 }
 
 .modal a.close-modal {
     top: 5px !important;
     left: 460px !important;
+    z-index: 9999;
 }
 
 .blocker {
