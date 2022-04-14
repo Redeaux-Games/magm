@@ -13,16 +13,8 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://magm.red/timeline.html</link>
-     <title></title>
-     
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://magm.red/firepaper.html</link>
-     <title></title>
+     <link>https://magm.red/firepaper.pdf</link>
+     <title>MAGMA Firepaper</title>
      
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
