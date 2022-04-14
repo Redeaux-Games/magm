@@ -226,7 +226,7 @@
 
 .modal {
     position: relative !important;
-    overflow: hidden !important;
+    overflow-y: auto !important;
 }
 
 .modal a.close-modal {
