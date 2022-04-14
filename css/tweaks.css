@@ -117,10 +117,11 @@
 			    font-size: 15px;
 			    line-height: 15px;
 			    min-width: 10px;
+			    z-index: 999999 !important;
 			    outline: none;
 			    vertical-align: middle;
 			    text-shadow: 0 5px 8px red, 0 0 7px red, 0 0 8px orange, 4px -5px 8px yellow, -4px -10px 10px yellow, 0 -10px 9px yellow;
-			    animation: 10s blaze1 infinite alternate ease-in-out;
+			    animation: 20s blaze1 infinite alternate ease-in-out;
 			}
 
 		      @keyframes blaze1 {
