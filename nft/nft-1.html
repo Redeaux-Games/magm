@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>KING MAGMA OF HEBGRON - Royalty NFT Collection | MAGMA</title>
         <meta charset="utf-8">
 	<meta http-equiv="cache-control" content="max-age=0" />
 	<meta http-equiv="cache-control" content="no-cache" />
@@ -12,6 +11,7 @@
         <meta name="author" content="Redeaux Games">
         <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://unpkg.com/algopay-js@1.1.0/dist/styles.css" rel="stylesheet">
 	    <style>
 		body {
 		    color: #ddd !important;
@@ -21,15 +21,59 @@
 		    -webkit-font-smoothing: antialiased;
 		    background-color: #1a1a1a !important;
 		}
+		    
+				.modal.show .modal-dialog {
+		top: 0 !important;
+		background-color: #0000007a !important;
+		backdrop-filter: blur(20px) !important;
+		border: 1px solid rgba(0,0,0,.7) !important;
+		border-radius: 1.2999999999999998rem !important;
+	    }
+
+		body {
+			margin: 0;
+			font-family: var(--bs-body-font-family);
+			font-size: var(--bs-body-font-size);
+			font-weight: var(--bs-body-font-weight);
+			line-height: var(--bs-body-line-height);
+			color: #e9ecef;
+			text-align: var(--bs-body-text-align);
+			background-color: #212529;
+			-webkit-text-size-adjust: 100%;
+			-webkit-tap-highlight-color: transparent;
+			overflow-x: auto;
+			overflow-x: visible;
+		}
+
+		.modal-footer-cr {
+			flex-wrap: wrap;
+			flex-shrink: 0;
+			display: none !important;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0.75rem;
+			border-top: 1px solid #dee2e6;
+			border-bottom-right-radius: calc(0.3rem - 1px);
+			border-bottom-left-radius: calc(0.3rem - 1px);
+			flex-direction: row;
+			font-size: small;
+		}
+
+		h5.algoswap-btn {
+    		color: #ff0000 !important;
+   			margin-bottom: 0!important;
+		}
+
+		.btn-primary, .btn-primary:hover {
+			color: #fff;
+			background-color: #ff0000 !important;
+			border-color: #4550e6 !important;
+		}
 	    </style>
     </head>
     <body bgcolor="#1a1a1a">
-        <div id="root">
                     <div class="align-center">
-
         			<center><br><video controls width="360"><source src="videos/king-magma.webm" type="video/webm"></video></center>
-                        
-                    <span class="serif small">KING MAGMA OF HEBGRON</span>
                         <br>
                         <div class="section-heading"><b>PRICE</b>:<i> 500 ALGO</i>
                             <br>
@@ -41,15 +85,16 @@
 			    
 		    </div>
 <noscript>AlgoPay</noscript>
-<link href="https://unpkg.com/algopay-js@1.1.0/dist/styles.css" rel="stylesheet">
+	    
+
 <script>window.details = {"amount":500000000,"note":"KING-MAGMA-NFT","index":0,"recipient":"KE5A23DGZUKXMC3ZRBO2X3DP3HOD6F5ELV4KXS3ORTX27GNRR7PRRHZRPU","input":false}</script>
-<script src="https://unpkg.com/algopay-js@1.1.0/dist/index.js">
+	    <div id="root"></div>
 </script>
 <script>document.getElementById("algopay-btn").style.backgroundColor = "#000000";document.getElementById("algopay-btn").style.width = "20%";document.getElementById("algopay-btn").style.color = "#ff0000";</script>
 
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/style-responsive.css"> 
         <!-- <link rel="stylesheet" href="../css/colors/black.css"> -->
-	</div>
+	<script src="https://unpkg.com/algopay-js@1.1.0/dist/index.js">
     </body>
 </html>
