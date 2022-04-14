@@ -205,3 +205,14 @@
 body.modal-open {
     overflow: visible;
 }
+
+.modal {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.modal a.close-modal {
+    position: absolute;
+    top: 0.5px !important;
+    left: 470px !important;
+}
