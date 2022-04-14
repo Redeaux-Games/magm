@@ -211,6 +211,6 @@ body.modal-open {
 }
 
 .modal a.close-modal {
-    top: 5px !important;
-    left: 460px !important;
+    top: 4px !important;
+    left: 465px !important;
 }
