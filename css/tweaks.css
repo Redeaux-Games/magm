@@ -227,6 +227,7 @@
 .modal {
     position: relative !important;
     overflow-y: auto !important;
+    overflow-x: hidden !important;
     background: #1a1a1a00 !important;
     backdrop-filter: blur(20px) !important;
     padding: 40px 1px !important;
