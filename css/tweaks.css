@@ -4,7 +4,7 @@
 		}
 
 		.page-loader {
-		    background: #00000080a url(../images/loader.gif) no-repeat center center !important;
+		    background: #00000036; !important;
 		    backdrop-filter: blur(15px) !important;
 		}
 
