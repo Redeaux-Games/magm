@@ -207,4 +207,8 @@
     background-color: #909295;
     color: #21262c;
 }
+
+.mailtoui-brand {
+    display: none !important;
+}
 /* End dark theme mailtoui */
