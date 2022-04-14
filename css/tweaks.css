@@ -150,7 +150,7 @@
 }
 
 .mailtoui-modal-head {
-    background-color: #21262C;
+    background-color: #222222;
 }
 
 .mailtoui-modal-title {
@@ -163,7 +163,7 @@
 }
 
 .mailtoui-modal-body {
-    background-color: #373b41;
+    background-color: #252525;
 }
 
 .mailtoui-button:focus .mailtoui-button-content {
@@ -207,6 +207,7 @@ body.modal-open {
 }
 
 .modal {
+    position: relative !important;
     overflow: hidden !important;
 }
 
