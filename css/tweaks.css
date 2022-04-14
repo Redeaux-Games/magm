@@ -110,34 +110,28 @@
 			vertical-align: middle;
 		      }
 
-		      .blaze1 {
-			display: inline-block;
-			margin: 0;
-			color: rgb(255, 255, 255);
-			font-size: 100px;
-			line-height: 50px;
-			min-width: 50px;
-			outline: none;
-			vertical-align: middle;
-			text-shadow:
-			      0 3px 20px red,
-			      0 0 20px red,
-			  0 0 10px orange,
-			  4px -5px 6px yellow,
-			  -4px -10px 10px yellow,
-			  0 -10px 30px yellow;
-			animation: 5s blaze1 infinite alternate linear;
-		      }
+			.blaze1 {
+			    display: inline-block;
+			    margin: 0;
+			    color: #ffffff;
+			    font-size: 15px;
+			    line-height: 15px;
+			    min-width: 10px;
+			    outline: none;
+			    vertical-align: middle;
+			    text-shadow: 0 5px 8px red, 0 0 7px red, 0 0 8px orange, 4px -5px 8px yellow, -4px -10px 10px yellow, 0 -10px 9px yellow;
+			    animation: 10s blaze1 infinite alternate ease-in-out;
+			}
 
 		      @keyframes blaze1 {
-			0%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+			0%   { text-shadow: 0 3px 5px red, 0 0 5px red,
 			  0 0 10px orange,
 			  0 0 0 yellow,
-			  0 0 5px yellow,
+			  0 0 15px yellow,
 			  -2px -5px 5px yellow,
 			  4px -10px 10px yellow; }
 			25%   { text-shadow: 0 3px 20px red, 0 0 30px red,
-			  0 0 20px orange,
+			  0 0 10px orange,
 			  0 0 5px yellow,
 			  -2px -5px 5px yellow,
 			  3px -10px 10px yellow,
