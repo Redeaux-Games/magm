@@ -235,8 +235,8 @@
 
 .modal a.close-modal {
     top: 5px !important;
-    left: 460px !important;
-    z-index: 9999;
+    left: 440px !important;
+    z-index: 999999 !important;
 }
 
 .blocker {
