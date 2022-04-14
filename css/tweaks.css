@@ -224,10 +224,6 @@
 }
 /* End dark theme mailtoui */
 
-body.modal-open {
-    overflow: hidden !important;
-}
-
 .modal {
     position: relative !important;
     overflow: hidden !important;
