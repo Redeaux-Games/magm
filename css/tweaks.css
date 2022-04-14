@@ -212,3 +212,7 @@
     display: none !important;
 }
 /* End dark theme mailtoui */
+
+body.modal-open {
+    overflow: visible;
+}
