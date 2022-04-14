@@ -40,7 +40,12 @@
 		}
 		
 		.nav-bar-compact:hover, .nav-bar-compact.js-opened, .nbc-bg:hover, .js-nbc-bg:hover {
-		    background: rgb(18 18 18 / 50%) !important;
+		    background: rgb(18 18 18 / 70%) !important;
+		    backdrop-filter: blur(15px) !important;
+		}
+
+		.nbc-menu-links, .nbc-menu-links ul {
+		    background: rgb(44 44 44 / 70%) !important;
 		    backdrop-filter: blur(15px) !important;
 		}
 		
@@ -49,8 +54,20 @@
 		    border-top-right-radius: 15px;
 		    border-bottom-left-radius: 15px;
 		    border-bottom-right-radius: 15px;
+		    background: rgb(44 44 44 / 70%) !important;
+		    backdrop-filter: blur(15px) !important;
 		}
 		
+		.nbc-social-links {
+		    background: rgba(18,18,18, 0.70) !important;
+		    backdrop-filter: blur(249px) !important;
+		}
+
+		.nbc-bg, .js-nbc-bg {
+		    background: rgba(18,18,18, 0.70) !important;
+		    backdrop-filter: blur(15px) !important;
+		}
+
 		.nbc-menu-wrap {
 		    background: rgb(18 18 18 / 70%) !important;
 		    backdrop-filter: blur(15px) !important;
