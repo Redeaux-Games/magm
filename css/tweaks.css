@@ -203,7 +203,7 @@
 /* End dark theme mailtoui */
 
 body.modal-open {
-    overflow: visible;
+    overflow: hidden !important;
 }
 
 .modal {
