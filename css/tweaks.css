@@ -226,7 +226,6 @@
 
 .modal {
     position: relative !important;
-    overflow-y: auto !important;
     overflow-x: auto !important;
     background: #1a1a1a00 !important;
     backdrop-filter: blur(20px) !important;
@@ -236,7 +235,6 @@
 .modal a.close-modal {
     top: 5px !important;
     left: 440px !important;
-    z-index: 999999 !important;
 }
 
 .blocker {
