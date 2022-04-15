@@ -230,7 +230,7 @@
     color: #ffffff !important;
     background: #1a1a1a00 !important;
     backdrop-filter: blur(20px) !important;
-    padding: 40px 10px !important;
+    padding: 40px 0px !important;
 }
 
 .modal a.close-modal {
