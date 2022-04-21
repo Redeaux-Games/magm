@@ -1,6 +1,5 @@
 body {
 
-    background: url("assets/magm-matrix.webp")  no-repeat fixed 0 0 / cover;
     font-family: 'Lato', sans-serif;
     color: white;
     text-align: center;
@@ -11,8 +10,8 @@ body {
 
 h1 {
     color: white;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p {
