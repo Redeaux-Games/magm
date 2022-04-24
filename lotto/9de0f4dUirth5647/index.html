@@ -34,11 +34,37 @@
       <div class="mb-20 mb-md-10">
         <center><h4>Thanks for purchasing your MAGMA🌋LOTTO Ticket!</h4></center>
         <br>
-      <h5><center>You are being redirected to choose your numbers in 5 seconds, if the page doesn't redirect then <a href="777-afhruiurYUOIUN7e8fhwu/">click here</a>!</center></h5>
+	      <h5><center>You are being redirected to choose your numbers in <span id="counter">5</span> seconds, if the page doesn't redirect then <a href="777-afhruiurYUOIUN7e8fhwu/">click here</a>!</center></h5>
       <br>
       <br>
 	</div>
     </section>
+	    <script type="text/javascript">
+
+		window.onload = function(){
+
+		(function(){
+		  var counter = 5;
+
+		  setInterval(function() {
+		    counter--;
+		    if (counter >= 0) {
+		      span = document.getElementById("count");
+		      span.innerHTML = counter;
+		    }
+		    // Display 'counter' wherever you want to display it.
+		    if (counter === 0) {
+		    //    alert('this is where it happens');
+			clearInterval(counter);
+		    }
+
+		  }, 500);
+
+		})();
+
+		}
+
+	   </script>
             <link rel="stylesheet" href="../../css/bootstrap.min.css">
             <link rel="stylesheet" href="../../css/style.css">
             <link rel="stylesheet" href="../../css/style-responsive.css">       
