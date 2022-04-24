@@ -43,8 +43,10 @@
     }
 
     iframe {overflow:hidden}
-    body { backgorund-color: #222222 !important }
     
     input, textarea {
 	    color: #000000 !important;
 	}
+    body {
+    background-color: #222222 !important;
+    }
