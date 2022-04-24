@@ -35,11 +35,37 @@
       	<div class="mb-20 mb-md-10">
         	<center><h4>Looks like there is an issue processing the payment for your MAGMA🌋LOTTO Ticket!</h4>
         	<br>
-        	<br><center><h5>You will be redirected to the cart in 5 seconds, or <a href="https://magm.red/lotto/">click here</a>!</h5></center>
+            <br><center><h5>You will be redirected to the cart in <span id="count">5</span> seconds, or <a href="https://magm.red/lotto/">click here</a>!</h5></center>
             <br>
         </div>
       </div>
     </section>
+      <script type="text/javascript">
+
+window.onload = function(){
+
+(function(){
+  var counter = 5;
+
+  setInterval(function() {
+    counter--;
+    if (counter >= 0) {
+      span = document.getElementById("count");
+      span.innerHTML = counter;
+    }
+    // Display 'counter' wherever you want to display it.
+    if (counter === 0) {
+    //    alert('this is where it happens');
+        clearInterval(counter);
+    }
+
+  }, 500);
+
+})();
+
+}
+
+</script>
             <link rel="stylesheet" href="../../css/bootstrap.min.css">
             <link rel="stylesheet" href="../../css/style.css">
             <link rel="stylesheet" href="../../css/style-responsive.css">       
