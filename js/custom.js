@@ -34,7 +34,7 @@
 	  username: discordUser.value,
           embeds: [{	     
             fields: [
-              { name: 'What Round?', value: +oneRound.value },
+              { name: 'How many Rounds?', value: +oneRound.value },
               { name: 'My Lucky Numbers', value: +messageOne.value +none.value +messageTwo.value +nonea.value +messageThree.value +noneb.value +messageFour.value +nonec.value +messageFive.value +noned.value +messageSix.value },
             ]
           }],
