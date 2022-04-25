@@ -79,15 +79,10 @@
          }, 5000);
        </script>
     <section class="page-section bg-dark">
-	    <form
-  ref="sendToMerchant"
-  :action="settings.success"
-  method="POST"
-  v-if="isPaid && settings.success"
->
-	    <form action="https://www.a-wallet.net/gateway/YWxnb3JhbmQ6Ly9LRTVBMjNER1pVS1hNQzNaUkJPMlgzRFAzSE9ENkY1RUxWNEtYUzNPUlRYMjdHTlJSN1BSUkhaUlBVPyZhbW91bnQ9NTAwMDAwMDAwMDAmYXNzZXQ9NDQ1MzYyNDIx/eyJzdWNjZXNzIjoiaHR0cHM6Ly9tYWdtLnJlZC9sb3R0by85ZGUwZjRkVWlydGg1NjQ3IiwiY2FuY2VsIjoiaHR0cHM6Ly9tYWdtLnJlZC9sb3R0by9mYWlsZWQifQ==" method="get" v-if="isPaid && settings.success">
+
+	    <form action="hhttps://magma.reflipd.workers.dev/" method="get" v-if="isPaid && settings.success">
 		  <label for="txId"></label>
-		  <input type="hidden" name="txId" :value="this.transactions.transactions[0].id"/>
+		  <input type="hidden" name="txId" value="this.transactions.transactions[0].id"/>
             </form>
       <center><h1>MAGMA 🌋 LOTTO</h1></center>
       <div class="container relative">
