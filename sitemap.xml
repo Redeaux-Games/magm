@@ -1,17 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>https://magm.red/</loc>
-  <lastmod>2022-01-06T01:42:33+00:00</lastmod>
-  <priority>1.00</priority>
+  <loc>http://magm.red/nft/</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
 </url>
 <url>
-  <loc>https://magm.red/firepaper.pdf</loc>
-  <lastmod>2022-01-06T01:42:33+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://magm.red/cdn-cgi/l/email-protection#82efe3e5efe3c2f0e7e6e7e3f7faace5e3efe7f1</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
 </url>
-</urlset>
+<url>
+  <loc>http://magm.red/tos.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/pp.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/firepaper.pdf</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/../index.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/../index.html#about</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/../index.html#services</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/../index.html#tools</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/../index.html#team</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km1.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km2.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km3.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km4.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km5.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km6.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km7.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km8.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km9.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km10.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km11.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/km12.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/cdn-cgi/l/email-protection#d0bdb1b7bdb190a2b5b4b5b1a5a8feb7b1bdb5a3</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/../tos.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/../pp.html</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/../firepaper.pdf</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc></loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/cdn-cgi/l/email-protection#600d01070d0120120504050115184e07010d0513</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/cdn-cgi/l/email-protection#5d303c3a303c1d2f3839383c2825733a3c30382e</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/cdn-cgi/l/email-protection#472a26202a26073522232226323f6920262a2234</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/cdn-cgi/l/email-protection#7d101c1a101c3d0f1819181c0805531a1c10180e</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>http://magm.red/cdn-cgi/l/email-protection#5f323e38323e1f2d3a3b3a3e2a2771383e323a2c</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
+<url>
+  <loc>https://magm.red</loc>
+  <changefreq>always</changefreq>
+  <lastmod>2022-06-14</lastmod>
+</url>
