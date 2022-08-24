@@ -775,7 +775,8 @@
 		<script>
 		  $(document).ready(function(){
 		    // Target your .container, .wrapper, .post, etc.
-		    $("#media").fitVids();
+		    $(".media").fitVids();
+		    $('iframe[src*="youtube"]').parent().fitVids();
 		  });
 		</script>
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
