@@ -92,7 +92,7 @@ a:active { text-decoration: none; }
 			      })
 			      .then(data => {
 			       console.log(data.price);
-			         const markup = `<a>${data.price.toFixed(14)}</a>`;
+			         const markup = `<a>${data.price.toFixed(11)}</a>`;
 			         document.querySelector('span').insertAdjacentHTML('beforeEnd', markup);
 			      })
 			      .catch(error => console.log(error));
