@@ -39,19 +39,59 @@
         <script>window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"><\/script>')</script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-	<style>
-		.vest {
-		  top: 1px;
-		  color: #FF00FF;
-		  font-family: monospace;
-		}
-	</style>
+<style>
+
+.price {
+  top: 1;
+  background-color: #00000000;
+  color: #000;
+  margin: 1px 5px 1px 0px;
+}
+
+.button-price {
+  background-color: #00000000;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 2.0em;
+  padding: 58px 1px;
+  text-align: center;
+  display: inline-block;
+  margin: 1px 1px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.vest {
+  top: 1px;
+  color: #FF00FF;
+  font-family: monospace;
+}
+
+.absolute{
+    position: absolute;
+    margin: 2px 1px 0px 28px;
+}
+
+a.unvisited, a.unvisited:visited, a.unvisited:active{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 1px 130px 2px -150px;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+</style>
         <script>
             $("#fade").modal({
                 fadeDuration: 100
             });
         </script>
-			    <script>
+
+    </head>  
+    <body class="appear-animate">
+     			    <script>
 			    fetch('https://free-api.vestige.fi/asset/445362421/price')
 			      .then(res => {
 			        console.log(res);
@@ -64,9 +104,6 @@
 			      })
 			      .catch(error => console.log(error));
 		            </script>
-    </head>  
-    <body class="appear-animate">
-     
         <div class="page-loader">
             <b class="spinner">Loading...</b>
         </div>
@@ -143,7 +180,7 @@
 			    <a href="https://moltencha.in">MoltenChain</a>
 			</li>
 			<li>
-			    <a href="https://vestige.fi/asset/445362421" class="absolute" target="_blank" rel="nofollow"><span class="vest"> </span></button></a>
+			    <div class="price"><button class="button-price"><a href="https://vestige.fi/asset/445362421" class="absolute" target="_blank" rel="nofollow"><span class="vest"> </span></button></a></div>
 			</li>
                     </ul>
                     <div class="nbc-social-links">
