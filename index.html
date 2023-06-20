@@ -99,7 +99,7 @@ a:active { text-decoration: none; }
 			      })
 			      .then(data => {
 			       console.log(data.price);
-			         const markup = `<a>${data.price.toFixed(6)}</a>`;
+			         const markup = `<a>${data.price.toFixed(11)}</a>`;
 			         document.querySelector('span').insertAdjacentHTML('beforeEnd', markup);
 			      })
 			      .catch(error => console.log(error));
@@ -180,7 +180,7 @@ a:active { text-decoration: none; }
 			    <a href="https://moltencha.in">MoltenChain</a>
 			</li>
 			<li>
-			    <div class="price"><button class="button-price"><a href="https://vestige.fi/asset/445362421" class="absolute" target="_blank" rel="nofollow"><span class="vest">  </span></button></a></div>
+			    <div class="price"><button class="button-price"><a href="https://vestige.fi/asset/445362421" class="absolute" target="_blank" rel="nofollow"><span class="vest"> </span></button></a></div>
 			</li>
                     </ul>
                     <div class="nbc-social-links">
